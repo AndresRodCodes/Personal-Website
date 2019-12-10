@@ -19,3 +19,24 @@ table {
 .centerText {
     text-align: center;
 }
+
+.grid {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-template-rows: 1fr 5fr;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.nested {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.subject {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
