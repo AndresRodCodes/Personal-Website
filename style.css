@@ -14,11 +14,14 @@ table {
 }
 button {
     padding: 10px;
-    border-radius: 5px;
-    width: 90px;
-    height: 40px;
+    width: 120px;
+    height: 45px;
     text-align: center;
     font-size: 14px;
+    background: transparent;
+    border-color: white;
+    border-width: medium;
+    color: white;
 }
 
 .center {
