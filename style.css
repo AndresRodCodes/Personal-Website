@@ -17,6 +17,8 @@ button {
     border-radius: 5px;
     width: 90px;
     height: 40px;
+    text-align: center;
+    font-size: 14px;
 }
 
 .center {
@@ -54,5 +56,14 @@ button {
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    font-size: x-large;
+    font-size: 2em;
+    font-family: 'Sulphur Point', sans-serif;
+}
+
+.largeFont {
+    font-size: large;
+}
+
+.sulphurFont {
+    font-family: 'Sulphur Point';
 }
