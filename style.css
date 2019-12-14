@@ -1,5 +1,5 @@
 h1, h2 {
-text-align: center;
+    text-align: center;
 }
 
 body {
@@ -37,6 +37,8 @@ button {
     grid-template-columns: 3fr 1fr;
     grid-template-rows: 1fr 5fr;
     grid-auto-rows: minmax(100px, auto);
+    padding-left: 2em;
+    padding-right: 2em;
 }
 
 .nested {
