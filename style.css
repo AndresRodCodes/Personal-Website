@@ -2,12 +2,6 @@ h1, h2 {
     text-align: center;
 }
 
-body {
-    background: #141E30;
-    color: white;
-}
-
-
 table {
     margin-left: auto;
     margin-right: auto;
@@ -24,43 +18,57 @@ button {
     color: white;
 }
 
-.center {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-}
-
 .centerText {
     text-align: center;
 }
 
-.grid {
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-    grid-template-rows: 1fr 5fr;
-    grid-auto-rows: minmax(100px, auto);
-    padding-left: 2em;
-    padding-right: 2em;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-.nested {
+.grid {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+}
+
+.homeGrid {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr 2fr;
+    background: #141E30;
+    color: white;
+}
+
+.portfolioGrid {
+    display: grid;
+    grid-template-columns: 3em 2em 1em;
+}
+
+.fullScreenWithPadding {
+    width: 100vw;
+    height: 100vh;
+    padding-left: 2em;
+    padding-top: 1em;
+    padding-right: 1em;
+}
+
+.heading {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 1em;
 }
 
 .subject {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
     font-size: 2em;
     font-family: 'Sulphur Point', sans-serif;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    justify-self: center;
 }
 
 .largeFont {
@@ -69,4 +77,14 @@ button {
 
 .sulphurFont {
     font-family: 'Sulphur Point';
+}
+
+.bottomMargin {
+    margin-bottom: 10px;
+}
+
+.portfolio {
+    width: 100%;
+    height: 300px;
+    background-color: blue;
 }
