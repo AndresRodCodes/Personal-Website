@@ -1,10 +1,31 @@
 h1, h2 {
     text-align: center;
+    font-weight: bold;
 }
 
 a {
     text-decoration: none;
     color: crimson;
+}
+
+p {
+    font-size: large;
+    padding-left: 1em;
+    font-family: 'Sulphur Point';
+    padding-top: 1em;
+}
+
+body {
+    color: white;
+}
+
+li {
+    font-size: x-large;
+}
+
+ul {
+    padding-left: 2em;
+    padding-top: 1em;
 }
 
 table {
@@ -71,6 +92,37 @@ button {
     grid-row-end: 3;
 }
 
+#fleatherCode {
+    background-image: url(./pics/fleatherCode.png);
+    background-size: cover;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    overflow: scroll;
+}
+
+#learned {
+    border-style: solid;
+    border-right: none;
+    border-bottom: none;
+    border-color: #141E30;
+    border-width: thick;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    padding: 1em;
+}
+
+.projectTitle {
+    border: thick solid #141E30;
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+    padding: 1em;
+}
+
 .fullScreenWithPadding {
     width: 100vw;
     height: 100vh;
@@ -103,6 +155,10 @@ button {
 
 .largeFont {
     font-size: large;
+}
+
+.sulphurFontMain {
+    font-family: 'Sulphur Point', sans-serif;
 }
 
 .sulphurFont {
