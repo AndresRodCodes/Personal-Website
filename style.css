@@ -99,14 +99,23 @@ button {
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 3;
-    overflow: scroll;
+
 }
 
 #gitHubLogo {
-    width: 50px;
-    height: 50px;
-    margin-top: 8em;
-    vertical-align: bottom;    
+    width: 6em;
+    height: 6em;
+}
+
+.logo {
+    text-align: center;
+    padding-top: 2em;
+}
+
+.logo a {
+    text-decoration: none;
+    color: white;
+    font-size: small;
 }
 
 #learned {
