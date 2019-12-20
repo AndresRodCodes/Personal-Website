@@ -51,16 +51,35 @@ button {
 }
 
 footer {
+    padding: 10px 0px;
     height: 10em;
+    width: 100%;
     background: #141E30;
     text-align: center;
 }
-footer #social-links {
-    display: inline;
+
+.logo-size {
+    width: 2em;
+    height: 2em;
 }
 
-footer .linkedin-link {
-    
+footer #social-links {
+    background-color: crimson;
+    width: auto;
+}
+
+footer .center-logo {
+    text-align: center;
+}
+
+footer #linkedin-logo {
+    float: left;
+    margin: 10px 10px 10px 48%;
+}
+
+footer #github-logo {
+    float: left;
+    margin: 10px;
 }
 
 .centerText {
