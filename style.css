@@ -51,35 +51,25 @@ button {
 }
 
 footer {
-    padding: 10px 0px;
-    height: 10em;
     width: 100%;
-    background: #141E30;
+    padding: 20px 0px;
+    background-color: #141E30;
     text-align: center;
 }
 
-.logo-size {
-    width: 2em;
-    height: 2em;
+footer .logo-size {
+    width: 27px;
+    height: auto;
 }
 
-footer #social-links {
-    background-color: crimson;
-    width: auto;
-}
-
-footer .center-logo {
+footer ul {
     text-align: center;
 }
 
-footer #linkedin-logo {
-    float: left;
-    margin: 10px 10px 10px 48%;
-}
-
-footer #github-logo {
-    float: left;
-    margin: 10px;
+footer ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0px 10px;
 }
 
 .centerText {
