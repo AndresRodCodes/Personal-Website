@@ -72,6 +72,10 @@ footer ul li {
     margin: 0px 10px;
 }
 
+footer #github-logo {
+    filter: invert(100%);
+}
+
 .centerText {
     text-align: center;
 }
