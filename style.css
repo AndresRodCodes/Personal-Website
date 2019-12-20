@@ -76,6 +76,10 @@ footer #github-logo {
     filter: invert(100%);
 }
 
+footer span {
+    color: crimson;
+}
+
 .centerText {
     text-align: center;
 }
