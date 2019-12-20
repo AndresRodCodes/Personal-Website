@@ -1,3 +1,9 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 h1, h2 {
     text-align: center;
     font-weight: bold;
@@ -44,14 +50,21 @@ button {
     color: white;
 }
 
-.centerText {
+footer {
+    height: 10em;
+    background: #141E30;
     text-align: center;
 }
+footer #social-links {
+    display: inline;
+}
 
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+footer .linkedin-link {
+    
+}
+
+.centerText {
+    text-align: center;
 }
 
 .grid {
