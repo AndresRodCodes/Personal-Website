@@ -1,216 +1,220 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-h1, h2 {
-    text-align: center;
-    font-weight: bold;
-}
-
-#home a {
-    text-decoration: none;
-    color: crimson;
-}
-
-p {
-    font-size: large;
-    padding-left: 1em;
-    font-family: 'Sulphur Point';
-    padding-top: 1em;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
 body {
-    color: white;
+	color: white;
+}
+
+#home a {
+	text-decoration: none;
+	color: crimson;
+}
+
+#home p {
+	font-size: large;
+	padding-left: 1em;
+	font-family: 'Sulphur Point';
+	padding-top: 1em;
 }
 
 li {
-    font-size: x-large;
+	font-size: x-large;
 }
 
 ul {
-    padding-left: 2em;
-    padding-top: 1em;
+	padding-left: 2em;
+	padding-top: 1em;
 }
 
-table {
-    margin-left: auto;
-    margin-right: auto;
+h1,
+h2 {
+	text-align: center;
+	font-weight: bold;
 }
-button {
-    padding: 10px;
-    width: 120px;
-    height: 45px;
-    text-align: center;
-    font-size: 14px;
-    background: transparent;
-    border-color: white;
-    border-width: medium;
-    color: white;
+
+.subject table {
+	margin-left: auto;
+	margin-right: auto;
+}
+.subject button {
+	padding: 10px;
+	width: 120px;
+	height: 45px;
+	text-align: center;
+	font-size: 14px;
+	background: transparent;
+	border-color: white;
+	border-width: medium;
+	color: white;
+	border-radius: 10px;
+	font-family: inherit;
+}
+
+#portfolio .project-title {
+	color: crimson;
 }
 
 footer {
-    width: 100%;
-    padding: 20px 0px;
-    background-color: #141E30;
-    text-align: center;
+	width: 100%;
+	padding: 20px 0px;
+	background-color: #141e30;
+	text-align: center;
 }
 
 footer .logo-size {
-    width: 27px;
-    height: auto;
+	width: 27px;
+	height: auto;
 }
 
 footer ul {
-    text-align: center;
+	text-align: center;
 }
 
 footer ul li {
-    display: inline-block;
-    list-style: none;
-    margin: 0px 10px;
+	display: inline-block;
+	list-style: none;
+	margin: 0px 10px;
 }
 
 footer #github-logo {
-    filter: invert(100%);
+	filter: invert(100%);
 }
 
 footer span {
-    color: crimson;
+	color: crimson;
 }
 
 .centerText {
-    text-align: center;
+	text-align: center;
 }
 
 .grid {
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto;
+	display: grid;
+	grid-template-columns: auto;
+	grid-template-rows: auto;
 }
 
 .homeGrid {
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-    grid-template-rows: 1fr 2fr;
-    background: #141E30;
-    color: white;
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+	grid-template-rows: 1fr 2fr;
+	background-color: #141e30;
+	color: white;
 }
 
 .portfolioGrid {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr;
 }
 
 .projectGrid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    background-color: crimson;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	background-color: #141e30;
 }
 
-#fleater {
-    background-image: url(./pics/fleather.jpg);
-    background-size: cover;
-    background-attachment: scroll;
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 1;
-    grid-row-end: 3;
+#project1-screenshot {
+	background-image: url(./pics/fleather.jpg);
+	background-size: cover;
+	background-attachment: scroll;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 3;
 }
 
 #fleatherCode {
-    background-image: url(./pics/fleatherCode.png);
-    background-size: cover;
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 3;
-
+	background-image: url(./pics/fleatherCode.png);
+	background-size: cover;
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 3;
 }
 
 #gitHubLogo {
-    width: 6em;
-    height: 6em;
+	width: 6em;
+	height: 6em;
 }
 
 .logo {
-    text-align: center;
-    padding-top: 2em;
+	text-align: center;
+	padding-top: 2em;
 }
 
 .logo a {
-    text-decoration: none;
-    color: white;
-    font-size: small;
+	text-decoration: none;
+	color: white;
+	font-size: small;
 }
 
 #learned {
-    border-style: solid;
-    border-right: none;
-    border-bottom: none;
-    border-color: #141E30;
-    border-width: thick;
-    grid-column-start: 3;
-    grid-column-end: 4;
-    grid-row-start: 2;
-    grid-row-end: 3;
-    padding: 1em;
+	border-style: solid;
+	border-right: none;
+	border-bottom: none;
+	border-color: #141e30;
+	border-width: thick;
+	grid-column-start: 3;
+	grid-column-end: 4;
+	grid-row-start: 2;
+	grid-row-end: 3;
+	padding: 1em;
 }
 
 .projectTitle {
-    border: thick solid #141E30;
-    border-right: none;
-    border-top: none;
-    border-bottom: none;
-    padding: 1em;
+	border: thick solid #141e30;
+	border-right: none;
+	border-top: none;
+	border-bottom: none;
+	padding: 1em;
 }
 
 .fullScreenWithPadding {
-    width: 100vw;
-    height: 100vh;
-    padding-left: 2em;
-    padding-top: 1em;
-    padding-right: 1em;
-    
+	width: 100vw;
+	height: 100vh;
+	padding-left: 2em;
+	padding-top: 1em;
+	padding-right: 1em;
 }
 
 .fullScreen {
-    width: 100vw;
-    height: 100vh;
+	width: 100vw;
+	height: 100vh;
 }
 
 .heading {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    column-gap: 1em;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	column-gap: 1em;
 }
 
 .subject {
-    font-size: 2em;
-    font-family: 'Sulphur Point', sans-serif;
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 2;
-    grid-row-end: 3;
-    justify-self: center;
+	font-size: 2em;
+	font-family: 'Sulphur Point', sans-serif;
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 2;
+	grid-row-end: 3;
+	justify-self: center;
 }
 
 .largeFont {
-    font-size: large;
+	font-size: large;
 }
 
 .sulphurFontMain {
-    font-family: 'Sulphur Point', sans-serif;
+	font-family: 'Sulphur Point', sans-serif;
 }
 
 .sulphurFont {
-    font-family: 'Sulphur Point';
+	font-family: 'Sulphur Point';
 }
 
 .bottomMargin {
-    margin-bottom: 10px;
+	margin-bottom: 10px;
 }
