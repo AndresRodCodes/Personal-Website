@@ -6,55 +6,66 @@
 
 body {
 	color: white;
+	background-color: #141e30;
 }
 
-#home a {
+header {
+	font-family: 'Sulphur Point', sans-serif;
+	padding: 15px;
+}
+header .header-home {
+	padding-left: 1.5vw;
+	font-family: inherit;
+	font-weight: unset;
+}
+
+header * {
+	display: inline-block;
+}
+
+header .part-of-header {
+	float: right;
+	border-color: cyan;
+	text-align: right;
+}
+
+header .part-of-header ul li {
+	padding: 0vw 1.5vw;
+	font-size: x-large;
+}
+
+header a {
 	text-decoration: none;
 	color: crimson;
 }
 
-#home p {
-	font-size: large;
-	padding-left: 1em;
-	font-family: 'Sulphur Point';
-	padding-top: 1em;
+#landing-page {
+	position: relative;
+	height: 94vh;
 }
 
-li {
-	font-size: x-large;
-}
-
-ul {
-	padding-left: 2em;
-	padding-top: 1em;
-}
-
-h1,
-h2 {
+#landing-page .subject {
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 	text-align: center;
-	font-weight: bold;
+	font-size: 2.5rem;
 }
 
-.subject table {
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.subject button {
-	padding: 10px;
+#landing-page .subject button {
 	width: 120px;
 	height: 45px;
-	text-align: center;
 	font-size: 14px;
 	background: transparent;
 	border-color: white;
-	border-width: medium;
 	color: white;
-	border-radius: 10px;
+	border-radius: 9px;
 	font-family: inherit;
 }
 
-.subject button:hover {
+#landing-page .subject button:hover {
 	border-color: crimson;
 }
 
@@ -180,7 +191,7 @@ footer span {
 }
 
 .fullScreenWithPadding {
-	width: 100vw;
+	width: 100%;
 	height: 100vh;
 	padding-left: 2em;
 	padding-top: 1em;
@@ -188,36 +199,16 @@ footer span {
 }
 
 .fullScreen {
-	width: 100vw;
+	width: 100%;
 	height: 100vh;
 }
 
-.heading {
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	column-gap: 1em;
-}
-
 .subject {
-	font-size: 2em;
-	font-family: 'Sulphur Point', sans-serif;
-	grid-column-start: 1;
-	grid-column-end: 3;
-	grid-row-start: 2;
-	grid-row-end: 3;
-	justify-self: center;
-}
-
-.largeFont {
-	font-size: large;
-}
-
-.sulphurFontMain {
 	font-family: 'Sulphur Point', sans-serif;
 }
 
 .sulphurFont {
-	font-family: 'Sulphur Point';
+	font-family: 'Sulphur Point', sans-serif;
 }
 
 .bottomMargin {
