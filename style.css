@@ -7,6 +7,7 @@
 body {
 	color: white;
 	background-color: #141e30;
+	font-family: 'Sulphur Point', sans-serif;
 }
 
 header {
@@ -69,8 +70,63 @@ header a {
 	border-color: crimson;
 }
 
+.portfolioGrid {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr;
+}
+
+.projectGrid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+}
+
+#project-screenshot {
+	background-image: url(./pics/fleather.jpg);
+	background-size: cover;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 3;
+}
+
+#project-code {
+	background-image: url(./pics/fleatherCode.png);
+	background-size: cover;
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 3;
+}
+
+#portfolio .about-project {
+	padding: 1em;
+}
+
+#portfolio .about-project #gitHubLogo {
+	width: 6em;
+	height: 6em;
+	filter: invert(100%);
+}
+
+#portfolio .logo .logo-label {
+	font-weight: unset;
+}
+
 #portfolio .project-title {
 	color: crimson;
+	font-weight: unset;
+}
+
+#portfolio .project-description {
+	font-size: 15px;
+}
+
+#portfolio .learned-list {
+	padding-left: 5%;
+	font-family: inherit;
+	font-size: 15px;
 }
 
 footer {
@@ -103,59 +159,12 @@ footer span {
 	color: crimson;
 }
 
-.centerText {
-	text-align: center;
-}
-
-.grid {
-	display: grid;
-	grid-template-columns: auto;
-	grid-template-rows: auto;
-}
-
 .homeGrid {
 	display: grid;
 	grid-template-columns: 3fr 1fr;
 	grid-template-rows: 1fr 2fr;
 	background-color: #141e30;
 	color: white;
-}
-
-.portfolioGrid {
-	display: grid;
-	grid-template-columns: 1fr;
-	grid-template-rows: 1fr;
-}
-
-.projectGrid {
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	grid-template-rows: repeat(2, 1fr);
-	background-color: #141e30;
-}
-
-#project1-screenshot {
-	background-image: url(./pics/fleather.jpg);
-	background-size: cover;
-	background-attachment: scroll;
-	grid-column-start: 1;
-	grid-column-end: 2;
-	grid-row-start: 1;
-	grid-row-end: 3;
-}
-
-#fleatherCode {
-	background-image: url(./pics/fleatherCode.png);
-	background-size: cover;
-	grid-column-start: 2;
-	grid-column-end: 3;
-	grid-row-start: 1;
-	grid-row-end: 3;
-}
-
-#gitHubLogo {
-	width: 6em;
-	height: 6em;
 }
 
 .logo {
@@ -169,12 +178,7 @@ footer span {
 	font-size: small;
 }
 
-#learned {
-	border-style: solid;
-	border-right: none;
-	border-bottom: none;
-	border-color: #141e30;
-	border-width: thick;
+#learned-section {
 	grid-column-start: 3;
 	grid-column-end: 4;
 	grid-row-start: 2;
@@ -182,29 +186,9 @@ footer span {
 	padding: 1em;
 }
 
-.projectTitle {
-	border: thick solid #141e30;
-	border-right: none;
-	border-top: none;
-	border-bottom: none;
-	padding: 1em;
-}
-
-.fullScreenWithPadding {
-	width: 100%;
-	height: 100vh;
-	padding-left: 2em;
-	padding-top: 1em;
-	padding-right: 1em;
-}
-
 .fullScreen {
 	width: 100%;
 	height: 100vh;
-}
-
-.subject {
-	font-family: 'Sulphur Point', sans-serif;
 }
 
 .sulphurFont {
