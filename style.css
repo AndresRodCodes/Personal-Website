@@ -39,6 +39,7 @@ h2 {
 	margin-left: auto;
 	margin-right: auto;
 }
+
 .subject button {
 	padding: 10px;
 	width: 120px;
@@ -51,6 +52,10 @@ h2 {
 	color: white;
 	border-radius: 10px;
 	font-family: inherit;
+}
+
+.subject button:hover {
+	border-color: crimson;
 }
 
 #portfolio .project-title {
