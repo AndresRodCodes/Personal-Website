@@ -12,7 +12,6 @@ function currentDiv(n) {
 function showDivs(n) {
 	let i;
 	let x = document.getElementsByClassName('code-slides');
-	let dots = document.getElementsByClassName('nav-circle');
 	if (n > x.length) {
 		slideIndex = 1;
 	}

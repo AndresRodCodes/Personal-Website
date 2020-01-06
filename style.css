@@ -82,13 +82,17 @@ header a {
 	grid-template-rows: repeat(2, 1fr);
 }
 
-#project-screenshot {
-	background-image: url(./pics/fleather.jpg);
-	background-size: cover;
+#project-screenshot-container {
 	grid-column-start: 1;
 	grid-column-end: 2;
 	grid-row-start: 1;
 	grid-row-end: 3;
+}
+
+#project-screenshot-container .project-screenshot {
+	width: 100%;
+	height: 95%;
+	padding-left: 5%;
 }
 
 .gallery-code-container {
@@ -97,21 +101,34 @@ header a {
 	grid-row-start: 1;
 	grid-row-end: 3;
 	position: relative;
+	padding: 2em;
 }
 
 #portfolio .code-slides {
 	display: none;
 	max-height: 100%;
-	text-align: center;
+}
+
+#portfolio .images-container {
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
 }
 
 .gallery-controls-container {
+	position: absolute;
+	width: 90%;
+	top: 80%;
 }
 
 .gallery-controls-container * {
 	display: inline;
-	color: crimson;
+	color: white;
 	font-size: 3em;
+	cursor: pointer;
+	opacity: 0.5;
 }
 
 .gallery-controls-container .left-control {
