@@ -32,7 +32,16 @@
       <div id="portfolio" class="sulphurFont">
         <div id="project1" class="projectGrid fullScreen">
           <div id="project-screenshot"></div>
-          <div id="project-code"></div>
+          <div class="gallery-code-container">
+            <img class="code-slides" src="./pics/project-one/fleather-weather-model.png" alt="Image of dart code" style="width:100%">
+            <img class="code-slides" src="./pics/project-one/fleather-location.png" alt="Image of dart code" style="width:100%">
+            <img class="code-slides" src="./pics/project-one/fleather-networking.png" alt="Image of dart code" style="width:100%">
+            <img class="code-slides" src="./pics/project-one/fleather-on-load.png" alt="Image of dart code" style="width:100%">
+            <div class="gallery-controls-container">
+              <div class="left-control" onclick="plusDivs(-1)">&#10094;</div>
+              <div class="right-control" onclick="plusDivs(1)">&#10095;</div>
+            </div>
+          </div>
           <div class="about-project">
             <h1 class="project-title"><a href="https://github.com/Ar64/Fleather" target="_blank">Fleather</a></h1>
             <p class="project-description">Weather app created with Flutter in collaboration with
@@ -78,5 +87,6 @@
         </ul>
       </div>
     </footer>
+    <script src="./gallery-control.js"></script>
   </body>
 </html>

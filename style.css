@@ -91,13 +91,35 @@ header a {
 	grid-row-end: 3;
 }
 
-#project-code {
-	background-image: url(./pics/fleatherCode.png);
-	background-size: cover;
+.gallery-code-container {
 	grid-column-start: 2;
 	grid-column-end: 3;
 	grid-row-start: 1;
 	grid-row-end: 3;
+	position: relative;
+}
+
+#portfolio .code-slides {
+	display: none;
+	max-height: 100%;
+	text-align: center;
+}
+
+.gallery-controls-container {
+}
+
+.gallery-controls-container * {
+	display: inline;
+	color: crimson;
+	font-size: 3em;
+}
+
+.gallery-controls-container .left-control {
+	float: left;
+}
+
+.gallery-controls-container .right-control {
+	float: right;
 }
 
 #portfolio .about-project {
