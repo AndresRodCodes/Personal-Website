@@ -128,7 +128,6 @@ header a {
 	color: white;
 	font-size: 3em;
 	cursor: pointer;
-	opacity: 0.5;
 }
 
 .gallery-controls-container .left-control {
@@ -167,6 +166,14 @@ header a {
 	font-size: 15px;
 }
 
+#learned-section {
+	grid-column-start: 3;
+	grid-column-end: 4;
+	grid-row-start: 2;
+	grid-row-end: 3;
+	padding: 1em;
+}
+
 #portfolio .learned-list {
 	padding-left: 5%;
 	font-family: inherit;
@@ -199,16 +206,8 @@ footer #github-logo {
 	filter: invert(100%);
 }
 
-footer span {
+.color-crimson {
 	color: crimson;
-}
-
-.homeGrid {
-	display: grid;
-	grid-template-columns: 3fr 1fr;
-	grid-template-rows: 1fr 2fr;
-	background-color: #141e30;
-	color: white;
 }
 
 .logo {
@@ -222,23 +221,7 @@ footer span {
 	font-size: small;
 }
 
-#learned-section {
-	grid-column-start: 3;
-	grid-column-end: 4;
-	grid-row-start: 2;
-	grid-row-end: 3;
-	padding: 1em;
-}
-
 .fullScreen {
 	width: 100%;
 	height: 100vh;
-}
-
-.sulphurFont {
-	font-family: 'Sulphur Point', sans-serif;
-}
-
-.bottomMargin {
-	margin-bottom: 10px;
 }
