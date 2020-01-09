@@ -109,6 +109,11 @@ header a {
 	max-height: 100%;
 }
 
+#portfolio .web-code-slides {
+	display: none;
+	max-height: 46rem;
+}
+
 #portfolio .images-container {
 	margin: 0;
 	position: absolute;
