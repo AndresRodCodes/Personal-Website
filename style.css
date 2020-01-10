@@ -208,7 +208,7 @@ footer ul {
 footer ul li {
 	display: inline-block;
 	list-style: none;
-	margin: 0px 10px;
+	margin: 5px;
 }
 
 footer #github-logo {
@@ -233,4 +233,18 @@ footer #github-logo {
 .fullScreen {
 	width: 100%;
 	height: 100vh;
+}
+
+.about-me-page {
+	position: relative;
+}
+
+.about-me {
+	margin: 0;
+	position: absolute;
+	top: 40%;
+	left: 30%;
+	transform: translate(-50%, -50%);
+	width: 40%;
+	font-size: 1.7rem;
 }
