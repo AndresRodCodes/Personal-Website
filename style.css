@@ -125,7 +125,6 @@ header .color-primary {
 	top: 50%;
 	-ms-transform: translateY(-50%);
 	transform: translateY(-50%);
-	
 }
 
 .gallery-controls-container {
@@ -249,4 +248,9 @@ footer #github-logo {
 	transform: translate(-50%, -50%);
 	width: 40%;
 	font-size: 1.7rem;
+}
+
+.black-background {
+	background-color: black;
+	line-height: 30px;
 }
