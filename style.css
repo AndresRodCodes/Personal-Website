@@ -112,11 +112,13 @@ header .color-primary {
 #portfolio .code-slides {
 	display: none;
 	max-height: 40rem;
+	padding-right: 10px;
 }
 
 #portfolio .web-code-slides {
 	display: none;
 	max-height: 40rem;
+	padding-right: 10px;
 }
 
 #portfolio .images-container {
